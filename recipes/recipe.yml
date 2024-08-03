@@ -32,16 +32,11 @@ modules:
       - virt-manager
       - keepassxc
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
+      - mesa-dri-drivers-24.1.5-2.fc40.x86_64
       - steam
 
     remove:
-
-    override remove:
       - mesa-dri-drivers-24.1.4-3.fc40.x86_64
-
-    override replace:
-      - mesa-dri-drivers-24.1.5-2.fc40.x86_64
-
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
