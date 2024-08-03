@@ -36,7 +36,6 @@ modules:
       - mesa-libEGL-24.1.5-2.fc40.x86_64
       - mesa-libgbm-24.1.5-2.fc40.x86_64
       - mesa-filesystem-24.1.5-2.fc40.x86_64
-      - mesa-libgbm-24.1.5-2.fc40.x86_64
       - mesa-libGL-24.1.5-2.fc40.x86_64
       - steam
 
@@ -45,7 +44,6 @@ modules:
       - mesa-libEGL-24.1.4-3.fc40.x86_64
       - mesa-libgbm-24.1.4-3.fc40.x86_64
       - mesa-filesystem-24.1.4-3.fc40.x86_64
-      - mesa-libgbm-24.1.4-3.fc40.x86_64
       - mesa-libGL-24.1.4-3.fc40.x86_64
 
 
