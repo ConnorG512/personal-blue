@@ -35,14 +35,14 @@ modules:
       #- winetricks
       #- protontricks
       #- lutris
-      #- k3b
+      - k3b
       #- libburn
       #- cdrskin
       # - steam
-      #- distrobox
-      #- yt-dlp
-      #- qemu
-      #- virt-manager
+      - distrobox
+      - yt-dlp
+      - qemu
+      - virt-manager
       #- keepassxc
       # - librewolf
 
