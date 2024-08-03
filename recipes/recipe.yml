@@ -32,7 +32,6 @@ modules:
       - virt-manager
       - keepassxc
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
-      - libglapi-24.1.4-3.fc40.x86_64
       - mesa-dri-drivers-24.1.5-2.fc40.x86_64
       - mesa-libEGL-24.1.5-2.fc40.x86_64
       - mesa-libgbm-24.1.5-2.fc40.x86_64
