@@ -32,6 +32,7 @@ modules:
       - virt-manager
       - keepassxc
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
+      - steam
 
     remove:
 
