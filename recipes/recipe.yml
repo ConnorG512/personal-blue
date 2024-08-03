@@ -31,12 +31,10 @@ modules:
       - qemu
       - virt-manager
       - keepassxc
-      - steam
+      - lutris
 
     remove:
-      # Compatibility erorrs with steam on RPMFusionNonfree
-      - mesa-dri-drivers-24.1.4-3.fc40.x86_64
-      - libEGL-24.1.4-3.fc40.x86_64
+
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
