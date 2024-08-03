@@ -38,7 +38,6 @@ modules:
       - mesa-filesystem-24.1.5-2.fc40.x86_64
       - mesa-libGL-24.1.5-2.fc40.x86_64
       - mesa-libglapi-24.1.5-2.fc40.x86_64
-      - mesa-filesystem-24.1.5-2.fc40.x86_64
       - mesa-vulkan-drivers-24.1.5-2.fc40.x86_64
       - steam
 
@@ -49,7 +48,6 @@ modules:
       - mesa-filesystem-24.1.4-3.fc40.x86_64
       - mesa-libGL-24.1.4-3.fc40.x86_64
       - libglapi-24.1.4-3.fc40.x86_64
-      - mesa-filesystem-24.1.4-3.fc40.x86_64
       - mesa-vulkan-drivers-24.1.4-3.fc40.x86_64
 
 
