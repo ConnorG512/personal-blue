@@ -34,12 +34,9 @@ modules:
       - steam
 
     remove:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
-      # - konsole
-      # - firefox
-      # - firefox-langpacks
+      # Compatibility erorrs with steam on RPMFusionNonfree
       - mesa-dri-drivers-24.1.4-3.fc40.x86_64
+      - libEGL-24.1.4-3.fc40.x86_64
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
