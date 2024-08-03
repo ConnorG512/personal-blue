@@ -29,21 +29,21 @@ modules:
       # - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
       # - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
       #- alacritty
-      #- wine
+      - wine
       #- wine-mono
       #- wine-dxvk
       #- winetricks
       #- protontricks
       #- lutris
       - k3b
-      #- libburn
-      #- cdrskin
+      - libburn
+      - cdrskin
       # - steam
       - distrobox
       - yt-dlp
       - qemu
       - virt-manager
-      #- keepassxc
+      - keepassxc
       # - librewolf
 
     remove:
