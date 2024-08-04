@@ -39,6 +39,7 @@ modules:
       - mesa-libGL-24.1.5-2.fc40.x86_64
       - mesa-libglapi-24.1.5-2.fc40.x86_64
       - mesa-vulkan-drivers-24.1.5-2.fc40.x86_64
+      - mesa-freeworld
       - steam
 
     remove:
