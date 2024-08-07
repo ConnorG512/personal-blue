@@ -36,6 +36,7 @@ modules:
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
       - neovim
       - mullvad-vpn
+      - dotnet-sdk-8.0
 
 
     remove:
@@ -63,6 +64,7 @@ modules:
         - org.x.Warpinator
         - net.davidotek.pupgui2
         - com.usebottles.bottles
+        - com.vscodium.codium
         
         # - org.mozilla.firefox
         # - org.gnome.Loupe
