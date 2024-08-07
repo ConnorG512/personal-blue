@@ -4,7 +4,7 @@ name: personal-blue
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/bazzite
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -32,24 +32,10 @@ modules:
       - virt-manager
       - keepassxc
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
-      - mesa-dri-drivers-24.1.5-2.fc40.x86_64
-      - mesa-libEGL-24.1.5-2.fc40.x86_64
-      - mesa-libgbm-24.1.5-2.fc40.x86_64
-      - mesa-filesystem-24.1.5-2.fc40.x86_64
-      - mesa-libGL-24.1.5-2.fc40.x86_64
-      - mesa-libglapi-24.1.5-2.fc40.x86_64
-      - mesa-vulkan-drivers-24.1.5-2.fc40.x86_64
-      - mesa-freeworld
-      - steam
+
 
     remove:
-      - mesa-dri-drivers-24.1.4-3.fc40.x86_64
-      - mesa-libEGL-24.1.4-3.fc40.x86_64
-      - mesa-libgbm-24.1.4-3.fc40.x86_64
-      - mesa-filesystem-24.1.4-3.fc40.x86_64
-      - mesa-libGL-24.1.4-3.fc40.x86_64
-      - libglapi-24.1.4-3.fc40.x86_64
-      - mesa-vulkan-drivers-24.1.4-3.fc40.x86_64
+
 
 
   - type: default-flatpaks
