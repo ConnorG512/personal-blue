@@ -31,6 +31,7 @@ modules:
       - qemu
       - virt-manager
       - keepassxc
+      - krita
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-console-1.26.7-CentOS-8-x86_64.rpm
 
 
@@ -49,6 +50,15 @@ modules:
         - com.spotify.Client
         - org.openrgb.OpenRGB
         - dev.vencord.Vesktop
+        - org.beeref.BeeRef
+        - com.github.zocker_160.SyncThingy
+        - com.github.Matoking.protontricks
+        - com.github.tchx84.Flatseal
+        - org.qbittorrent.qBittorrent
+        - org.x.Warpinator
+        - net.davidotek.pupgui2
+        - com.usebottles.bottles
+        
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
