@@ -20,7 +20,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://repository.mullvad.net/rpm/stable/mullvad.repo
+      - https://repository.mullvad.net/rpm/stable/mullvad.repo # mullvad
+      - https://rpm.librewolf.net/librewolf-repo.repo # librewolf
 
     install:
       - alacritty
@@ -37,6 +38,7 @@ modules:
       - neovim
       - mullvad-vpn
       - dotnet-sdk-8.0
+      - librewolf
 
 
     remove:
@@ -65,6 +67,7 @@ modules:
         - net.davidotek.pupgui2
         - com.usebottles.bottles
         - com.vscodium.codium
+        - it.mijorus.gearlever
         
         # - org.mozilla.firefox
         # - org.gnome.Loupe
