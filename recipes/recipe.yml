@@ -60,7 +60,6 @@ modules:
         - dev.vencord.Vesktop
         - org.beeref.BeeRef
         - com.github.zocker_160.SyncThingy
-        - com.github.Matoking.protontricks
         - com.github.tchx84.Flatseal
         - org.qbittorrent.qBittorrent
         - org.x.Warpinator
