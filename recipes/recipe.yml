@@ -41,6 +41,7 @@ modules:
       - neovim
       - dotnet-sdk-8.0
       - librewolf
+      - mullvad-vpn
 
 
     remove:
