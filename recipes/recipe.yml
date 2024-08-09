@@ -42,6 +42,8 @@ modules:
       - dotnet-sdk-8.0
       - librewolf
       - mullvad-vpn
+      - libinput
+      - libwacom
 
 
     remove:
