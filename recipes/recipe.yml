@@ -23,8 +23,10 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo # mullvad
       - https://rpm.librewolf.net/librewolf-repo.repo # librewolf
 
+    keys:
+
     optfix:
-      - mullvad-vpn
+      - Mullvad # mullvad-vpn
 
     install:
       - alacritty
@@ -37,7 +39,8 @@ modules:
       - virt-manager
       - keepassxc
       - krita
-      - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-1.26.7-CentOS-8-x86_64.rpm
+      - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-1.26.7-CentOS-8-x86_64.rpm # Veracrypt GUI
+      - https://github.com/VSCodium/vscodium/releases/download/1.91.1.24193/codium-1.91.1.24193-el7.x86_64.rpm # VS Codium
       - neovim
       - dotnet-sdk-8.0
       - librewolf
@@ -70,7 +73,6 @@ modules:
         - org.x.Warpinator
         - net.davidotek.pupgui2
         - com.usebottles.bottles
-        - com.vscodium.codium
         - it.mijorus.gearlever
         
         # - org.mozilla.firefox
