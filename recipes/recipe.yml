@@ -47,6 +47,7 @@ modules:
       - mullvad-vpn
       - libinput
       - libwacom
+      - gwenview
 
 
     remove:
