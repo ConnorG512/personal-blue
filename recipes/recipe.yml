@@ -73,7 +73,6 @@ modules:
         - org.x.Warpinator
         - net.davidotek.pupgui2
         - com.usebottles.bottles
-        - com.vscodium.codium
         - it.mijorus.gearlever
         
         # - org.mozilla.firefox
