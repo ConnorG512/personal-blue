@@ -48,7 +48,7 @@ modules:
       - libinput
       - libwacom
       - gwenview
-
+      - okular
 
     remove:
       - konsole
