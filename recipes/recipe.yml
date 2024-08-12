@@ -45,13 +45,12 @@ modules:
       - dotnet-sdk-8.0
       - librewolf
       - mullvad-vpn
-      - libinput
-      - libwacom
       - gwenview
       - okular
       - kcalc
       - celluloid
       - HandBrake
+      - lpf-spotify-client
 
     remove:
       - konsole
@@ -67,7 +66,6 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - com.spotify.Client
         - org.openrgb.OpenRGB
         - dev.vencord.Vesktop
         - org.beeref.BeeRef
