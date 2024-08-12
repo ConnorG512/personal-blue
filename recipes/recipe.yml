@@ -49,6 +49,7 @@ modules:
       - libwacom
       - gwenview
       - okular
+      - kcalc
 
     remove:
       - konsole
