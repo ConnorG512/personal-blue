@@ -45,10 +45,11 @@ modules:
       - dotnet-sdk-8.0
       - librewolf
       - mullvad-vpn
-      - libinput
-      - libwacom
       - gwenview
-
+      - okular
+      - kcalc
+      - celluloid
+      - HandBrake
 
     remove:
       - konsole
@@ -64,7 +65,6 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - com.spotify.Client
         - org.openrgb.OpenRGB
         - dev.vencord.Vesktop
         - org.beeref.BeeRef
@@ -75,7 +75,8 @@ modules:
         - net.davidotek.pupgui2
         - com.usebottles.bottles
         - it.mijorus.gearlever
-        
+        - com.spotify.Client
+
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
