@@ -50,6 +50,8 @@ modules:
       - gwenview
       - okular
       - kcalc
+      - celluloid
+      - HandBrake
 
     remove:
       - konsole
