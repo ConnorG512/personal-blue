@@ -50,7 +50,7 @@ modules:
       - kcalc
       - celluloid
       - HandBrake
-      - lpf-spotify-client
+      - spotify-client
 
     remove:
       - konsole
