@@ -50,6 +50,7 @@ modules:
       - kcalc
       - celluloid
       - HandBrake
+      - pv
 
     remove:
       - konsole
