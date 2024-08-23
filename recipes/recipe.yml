@@ -51,6 +51,7 @@ modules:
       - celluloid
       - HandBrake
       - pv
+      - libvirt
 
     remove:
       - konsole
