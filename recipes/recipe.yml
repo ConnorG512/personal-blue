@@ -52,6 +52,14 @@ modules:
       - HandBrake
       - pv
       - libvirt
+      - tmux
+
+      # zsh packages
+      - zsh
+      - autojump-zsh
+      - zsh-autosuggestions
+      - yt-dlp-zsh-completion
+      - zsh-syntax-highlighting
 
     remove:
       - konsole
