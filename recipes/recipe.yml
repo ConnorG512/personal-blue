@@ -58,6 +58,8 @@ modules:
       - zsh
       - autojump-zsh
       - zsh-autosuggestions
+      - yt-dlp-zsh-completion
+      - zsh-syntax-highlighting
 
     remove:
       - konsole
