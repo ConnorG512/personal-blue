@@ -54,6 +54,11 @@ modules:
       - libvirt
       - tmux
 
+      # zsh packages
+      - zsh
+      - autojump-zsh
+      - zsh-autosuggestions
+
     remove:
       - konsole
       - konsole-part
