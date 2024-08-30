@@ -52,6 +52,7 @@ modules:
       - HandBrake
       - pv
       - libvirt
+      - tmux
 
     remove:
       - konsole
