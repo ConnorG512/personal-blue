@@ -43,6 +43,7 @@ modules:
       - https://github.com/VSCodium/vscodium/releases/download/1.91.1.24193/codium-1.91.1.24193-el7.x86_64.rpm # VS Codium
       - neovim
       - dotnet-sdk-8.0
+      - lua
       - librewolf
       - mullvad-vpn
       - gwenview
