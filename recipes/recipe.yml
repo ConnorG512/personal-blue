@@ -56,6 +56,7 @@ modules:
       - tmux
       - rust 
       - cargo
+      - lld
 
       # zsh packages
       - zsh
