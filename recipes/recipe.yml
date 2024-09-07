@@ -60,7 +60,8 @@ modules:
       - zig-libs
       - zig-doc
       - lld
-
+      - tldr
+      
       # zsh packages
       - zsh
       - autojump-zsh
