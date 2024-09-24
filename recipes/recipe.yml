@@ -81,6 +81,9 @@ modules:
       - SDL2_sound
       - SDL2_sound-devel
 
+      # wine
+      - wine-devel
+
       # zsh packages
       - zsh
       - autojump-zsh
