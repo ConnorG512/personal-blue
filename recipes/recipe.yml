@@ -81,6 +81,12 @@ modules:
       - SDL2_sound
       - SDL2_sound-devel
 
+      # mingw
+      - mingw64-gcc
+      - mingw64-headers
+      - mingw64-winpthreads
+      - mingw64-crt
+
       # wine
       - wine-devel
 
