@@ -21,7 +21,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo # mullvad
-      - https://rpm.librewolf.net/librewolf-repo.repo # librewolf
+      - https://copr.fedorainfracloud.org/coprs/bgstack15/AfterMozilla/repo/fedora-$releasever/bgstack15-AfterMozilla-fedora-$releasever.repo # librewolf
 
     keys:
 
