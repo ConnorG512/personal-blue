@@ -40,7 +40,7 @@ modules:
       - keepassxc
       - krita
       - https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-1.26.7-CentOS-8-x86_64.rpm # Veracrypt GUI
-      - https://github.com/VSCodium/vscodium/releases/download/1.91.1.24193/codium-1.91.1.24193-el7.x86_64.rpm # VS Codium
+      - https://github.com/VSCodium/vscodium/releases/download/1.94.2.24286/codium-1.94.2.24286-el8.x86_64.rpm # VS Codium
       - neovim
       - dotnet-sdk-8.0
       - lua
