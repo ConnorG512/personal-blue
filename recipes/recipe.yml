@@ -20,7 +20,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://repository.mullvad.net/rpm/stable/mullvad.repo # mullvad
+      - https://repository.mullvad.net/rpm/beta/mullvad.repo # mullvad
       - https://copr.fedorainfracloud.org/coprs/bgstack15/AfterMozilla/repo/fedora-$releasever/bgstack15-AfterMozilla-fedora-$releasever.repo # librewolf
 
     keys:
