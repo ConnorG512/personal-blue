@@ -45,7 +45,7 @@ modules:
       - dotnet-sdk-8.0
       - lua
       - librewolf
-       - mullvad-vpn
+      - mullvad-vpn
       - gwenview
       - okular
       - kcalc
