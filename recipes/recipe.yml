@@ -20,8 +20,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-      # - https://repository.mullvad.net/rpm/beta/mullvad.repo # mullvad
-      - https://copr.fedorainfracloud.org/coprs/bgstack15/AfterMozilla/repo/fedora-$releasever/bgstack15-AfterMozilla-fedora-$releasever.repo # librewolf
+      - https://repository.mullvad.net/rpm/beta/mullvad.repo # mullvad
+      - https://repo.librewolf.net/librewolf.repo # librewolf
 
     keys:
 
@@ -45,7 +45,7 @@ modules:
       - dotnet-sdk-8.0
       - lua
       - librewolf
-      # - mullvad-vpn
+       - mullvad-vpn
       - gwenview
       - okular
       - kcalc
