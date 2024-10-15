@@ -62,6 +62,10 @@ modules:
       - lld
       - tldr
       - apitrace
+      - xz
+      - xz-lzma-compat
+      - xz-libs
+      - xz-static 
       
       # SDL
       - SDL2
