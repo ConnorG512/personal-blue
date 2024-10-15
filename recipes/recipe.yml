@@ -50,7 +50,7 @@ modules:
       - okular
       - kcalc
       - celluloid
-      - HandBrake
+     # - HandBrake
       - pv
       - libvirt
       - tmux
