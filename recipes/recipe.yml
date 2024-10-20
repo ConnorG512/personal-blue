@@ -85,7 +85,7 @@ modules:
       - SDL2_Pango
       - SDL2_Pango-devel
       - SDL2_sound
-      - SDL2_sound-
+      - SDL2_sound
 
       - raylib
       - raylib-devel
