@@ -66,6 +66,8 @@ modules:
       - xz-lzma-compat
       - xz-libs
       - xz-static 
+      - cronie
+      - cronie-anacron
       
       # SDL
       - SDL2
