@@ -51,6 +51,7 @@ modules:
       - kcalc
       - celluloid
       - scanmem
+      - ddd
 
      # - HandBrake
       - pv
