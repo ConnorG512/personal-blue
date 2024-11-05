@@ -52,6 +52,7 @@ modules:
       - celluloid
       - scanmem
       - ddd
+      - iaito
 
      # - HandBrake
       - pv
