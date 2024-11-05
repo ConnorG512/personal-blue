@@ -52,6 +52,7 @@ modules:
       - celluloid
       - scanmem
       - ddd
+      - radare2
       - iaito
 
      # - HandBrake
