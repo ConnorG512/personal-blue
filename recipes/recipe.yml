@@ -51,7 +51,7 @@ modules:
       - scanmem
       - ddd
       - radare2
-      - iaito
+      - cutter-re
 
      # - HandBrake
       - pv
